@@ -288,7 +288,7 @@
         // Search for bonus proposal
         try {
           const response = await fetch(
-            `http://localhost:3000/api/bonuses/search?employeeName=${encodeURIComponent(nameQuery)}&employeeID=${idQuery}`
+            `http://34.229.100.84:3068/api/bonuses/search?employeeName=${encodeURIComponent(nameQuery)}&employeeID=${idQuery}`
           );
           
           if (response.status === 404) {
